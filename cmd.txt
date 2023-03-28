@@ -1,0 +1,14 @@
+To run conda command from terminal, add following paths to environment variable Path:
+1. C:\Users\user\anaconda3
+2. C:\Users\user\anaconda3\Scripts
+
+Alternatively if there is error conda not found, to run conda command from vs code terminal:
+1. Chose command palate from view menu in vs code
+2. Type python interpreter
+3. Select (base) ~anacoda\python.exe
+
+Commands:
+1. conda env list or conda info --env : To list all conda virtual environments 
+2. conda activate base
+3. conda create -p venv python=3.8 : Creates virtual environment venv in local directory.
+4. conda activate venv
